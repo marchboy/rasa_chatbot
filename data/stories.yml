@@ -2,6 +2,11 @@ version: "2.0"
 
 stories:
 
+- story: buy_tickets
+  steps:
+  - intent: buy_movie_tickets
+  - action: utter_buy_movie_tickets
+
 - story: happy path
   steps:
   - intent: greet

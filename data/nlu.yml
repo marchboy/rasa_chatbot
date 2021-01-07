@@ -1,6 +1,21 @@
 version: "2.0"
 
 nlu:
+- intent: buy_movie_tickets
+  examples: |
+    - 我想看电影
+    - 我想去看电影
+    - 我想找个地方看电影
+    - 我想看[送你一朵小红花](movie)啊
+    - 我想看[拆弹专家2](movie)
+    - 想看[拆弹专家](movie)
+    - 附近有电影院吗
+    - 最近有好看的电影吗
+    - 想看一部浪漫爱情电影
+    - 好无聊，推荐一部电影呗
+    - [唐人街探案3](movie)上映了吗
+
+
 - intent: greet
   examples: |
     - 你好
@@ -40,7 +55,6 @@ nlu:
     - 非常好
     - 赞
 
-
 - intent: deny
   examples: |
     - no
@@ -59,7 +73,6 @@ nlu:
     - 我不认为这样
 
 
-
 - intent: goodbye
   examples: |
     - good afternoon
@@ -76,12 +89,10 @@ nlu:
     - 再见
     - 回见
     - 下次见
+    - 下回见
     - 拜拜
     - 晚安
     - 886
-
-
-python poetry install
 
 
 - intent: affirm
@@ -100,8 +111,7 @@ python poetry install
     - 好呀
     - 是
     - 没问题
-
-
+    - 好啊
 
 
 - intent: mood_unhappy
@@ -123,6 +133,8 @@ python poetry install
     - 伤心
     - 悲伤
     - 我很难过
+    - 今天心情不好
+    - 不开心
     - 我不开心
     - 很难受
     - 滚蛋
@@ -134,3 +146,7 @@ python poetry install
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    - 你是个机器人吗
+    - 你是人类还是机器人
+    - 我是在和机器人说话吗
+    - 我在和谁说话呀

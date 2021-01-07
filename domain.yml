@@ -9,17 +9,32 @@ intents:
 - mood_great
 - mood_unhappy
 - bot_challenge
+- buy_movie_tickets
+entities:
+- movie
 responses:
+  utter_buy_movie_tickets:
+  - text: 好好学习，不要浪费时间看电影呀
+  - text: 今天的作业做完了咩？
+  - text: 考试成绩拿到满分了咩？
   utter_greet:
+  - text: 你好鸭！
   - text: Hey! How are you?
+  - text: 嗨，你好！
+  - text: 你好！
   utter_cheer_up:
-  - image: https://i.imgur.com/nGF1K8f.jpg
-    text: 'Here is something to cheer you up:'
+  - text: 加油！
+  - text: 每天都要帅帅的哦！
   utter_did_that_help:
+  - text: 请问有什么需要帮助的吗？
   - text: Did that help you?
   utter_happy:
+  - text: 加油，每天都要帅帅的~
   - text: Great, carry on!
   utter_goodbye:
+  - text: '886'
+  - text: 再见！
   - text: Bye
   utter_iamabot:
+  - text: 你猜猜，我是不是机器人
   - text: I am a bot, powered by Rasa.
