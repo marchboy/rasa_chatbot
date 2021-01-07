@@ -1,0 +1,9 @@
+# Created by .ignore support plugin (hsz.mobi)
+*.db*
+*.bak
+models
+tests
+results
+.idea
+actions/__pycache__/
+component/__pycache__/

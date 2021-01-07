@@ -1,0 +1,136 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - 你好
+    - 你好啊
+    - 你好呀
+    - 你好鸭
+    - Hi
+    - good morning
+    - good evening
+    - good afternoon
+    - hello
+    - 早上好
+    - 晚上好
+    - hey
+    - 下午好
+    - 嗨
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - 完美
+    - 开心
+    - 哈哈
+    - 非常好
+    - 赞
+
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - 不
+    - 不行
+    - 不好
+    - 没门
+    - 下回吧
+    - 行不通的
+    - 我不认为这样
+
+
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - 再见
+    - 回见
+    - 下次见
+    - 拜拜
+    - 晚安
+    - 886
+
+
+python poetry install
+
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - 是的
+    - 对的
+    - 好的
+    - 确实
+    - 好滴
+    - 好呀
+    - 是
+    - 没问题
+
+
+
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    - 伤心
+    - 悲伤
+    - 我很难过
+    - 我不开心
+    - 很难受
+    - 滚蛋
+    - 走开
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
